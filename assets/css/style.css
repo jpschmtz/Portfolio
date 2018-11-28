@@ -3,15 +3,15 @@
 
 * {
     box-sizing: border-box;
-    
+
   }
- 
+
 body {
     font-size: 24px;
     line-height: 32px;
     color: #333;
   }
-  
+
 .fixed {
     width: 100%;
     position: fixed;
@@ -25,7 +25,6 @@ body {
 .name {
     font-size: 36px;
     width: 100%;
-    height: 100%;
     text-align: left;
     background: #eee;
   }
@@ -39,6 +38,12 @@ body {
     margin: 0;
     font-size: 18px;
     background: none;
+    transition: background-color .5s;
+  }
+
+a:hover {
+  background: rgb(105, 105, 105);
+  color: white;
   }
 
 .about_me {
@@ -48,22 +53,22 @@ body {
     margin: 0 auto;
   }
 
-  .about_me_pic {
-    position: relative;
-    height: 200px;
-    width: 25%;
-    padding: 20px;
-    margin-bottom: 20px;
+.joe {
+    width: 20%;
+    padding: 2px;
+    margin-bottom: 5px;
     text-align: center;
     background: #eee;
   }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+  
+.header{
+  clear: both;
+  text-align: left;
+  font-size: 30px;
 
+}
 .about_me_text {
+    clear: both;
     float: left;
     width: auto;
     padding: 20px;
@@ -73,9 +78,11 @@ body {
   .clearfix {
     overflow: auto;
 }
-  .joe {
+  .knife {
+    /* position: ; */
     float: left;
-    margin: 10px 25px;s 
+    margin: 10px 25px;
+    width: 200px;
 }
 
 .portfolio {
@@ -83,6 +90,57 @@ body {
   width: 930px;
   padding: 20px;
   margin: 0 auto;
-  display: flex;
+}
 
+.portfolio_content {
+  width: 930px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.contact {
+  clear: both;
+  width: 930px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contact_form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 43px 88px 57px 190px;
+}
+.contact_form_name {
+  width: 25%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.contact_form_email {
+  clear: both;
+  width: 25%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.contact_form_email_type {
+  width: 100%;
+}
+
+
+.message {
+  clear: both;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_button{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 43px 88px 57px 190px;
 }
