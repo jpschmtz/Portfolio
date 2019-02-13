@@ -1,0 +1,105 @@
+body {
+    max-width: 960px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    background-image: url('../images/bg.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header { 
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(465px, 1fr));
+    grid-column-gap: 30px;
+    margin: 50px 0;
+}
+
+/* search css */
+.search {
+    padding: 10px 200px 10px 10px;
+    border: solid 4px #000000;
+}
+
+.search:focus {
+    outline-width: 1;
+    outline-color: #3cbbb1;
+}
+
+/* hover css */
+.hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    
+  }
+  .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    color:#3cbbb1;
+  }
+
+  /* font awesome icons */
+  .icons {
+    text-align: center;
+}
+
+/* the two columns css*/
+
+.titleName {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.subHead {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+
+.sumInfo {
+    margin: 30px 0;
+    line-height: 20px;
+}
+
+p {
+    line-height: 20px;
+}
+
+.mealImg {
+    width: 465px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.instruct {
+    height: 520px;
+    overflow: auto;
+}
+
+hr {
+    border: none;
+    width: 465px;
+    height: 4px;
+    background-color: #000000;
+}
