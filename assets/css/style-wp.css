@@ -1,0 +1,61 @@
+.ajax-loader {
+  display: none !important;
+}
+
+
+span.wpcf7-not-valid-tip {
+  margin-top: 0;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+  border-color: red;
+}
+
+div.wpcf7-response-output {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.hidden-reset {
+  display: none !important;
+}
+
+.contact-us-section div.wpcf7-mail-sent-ok {
+  color: #fff;
+}
+
+.grid-work {
+  text-decoration: none !important;
+}
+
+aside .screen-reader-text {
+  display: none;
+}
+
+.wr-tooltip {
+	position: relative;
+}
+
+#content .entry .wpcf7-form-control.wpcf7-submit {
+  margin-top: 20px;
+}
+
+@media (max-width: 1023px) {
+	.item-tooltip:not(.item-tooltip-xl) {
+		display: none;
+	}
+}
+
+@media (max-width: 380px) {
+  .title h1 {
+    font-size: 36px;
+  }
+}
+
+.wpcf7-response-output {
+  font-size: 14px;
+}
+
+.page-template-test .about-section {
+  height: auto;
+}

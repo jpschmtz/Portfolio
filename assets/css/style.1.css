@@ -1,0 +1,266 @@
+
+
+
+* {
+    box-sizing: border-box;
+
+  }
+
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    margin: 0;
+    background: #eee;
+  }
+
+
+
+.nav_tabs {
+    position: fixed;
+    height: 100%;
+    top: 10px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    background: none;
+    transition: background-color .5s;
+  }
+
+a:hover {
+  background: rgb(105, 105, 105);
+  color: white;
+  }
+
+.about_me {
+    clear: both;
+    width: 100%;
+    padding: 20px;
+    margin: 120px auto;
+  }
+
+.joe {
+    width: 20%;
+    padding: 2px;
+    margin-bottom: 5px;
+    float: left;
+    background: #eee;
+  }
+  
+.header{
+  clear: both;
+  text-align: left;
+  font-size: 30px;
+
+}
+.about_me_text {
+    padding: 20px;
+    background: #999;
+    width: 80%;
+  }
+
+  .knife {
+    /* position: ; */
+    float: left;
+    margin: 10px 25px;
+    width: 200px;
+}
+
+.portfolio {
+  clear: both;
+  width: 100%;
+  padding: 20px;
+  margin: 120px auto;
+}
+
+.portfolio_content {
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.contact {
+  clear: both;
+  width: 100%;
+  padding: 20px;
+  margin: 120px auto;
+}
+
+.contact_form {
+  width: 100%;
+  justify-content: center;
+  padding: 43px 88px 57px 190px;
+}
+.contact_form_name {
+  clear: both;
+  width: 25%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.contact_form_email {
+  clear: both;
+  width: 25%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.contact_form_email_type {
+  width: 100%;
+}
+
+
+.message {
+  clear: both;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_button{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 43px 88px 57px 190px;
+}
+
+@media all and (max-width: 640px){
+  .fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    margin: 0;
+    background: #eee;
+    flex-direction: column;
+  }
+  .name {font-size: 36px;
+      width: 100%;
+      text-align: center;
+  }
+  .joe {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 5px;
+    float: center;
+    background: #eee;
+  }
+
+  .header{
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.nav_tabs {
+  clear: both;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.about_me_text {
+  padding: 20px;
+  background: #999;
+  width: 100%;
+}
+
+.about_me {
+  clear: both;
+  width: 100%;
+  padding: 20px;
+  margin: 120px auto;
+}
+.portfolio {
+  clear: both;
+  width: 100%;
+  padding: 20px;
+  margin: 120px auto;
+}
+
+.contact {
+  clear: both;
+  width: 100%;
+  padding: 20px;
+  margin: 120px auto;
+}
+
+.portfolio_content {
+  width: 100%;
+  align-content: center;
+}
+.knife {
+  /* position: ; */
+  float: center;
+  margin: 10px 25px;
+  width: 100%;
+}
+.contact_form {
+  width: 100%;
+  justify-content: center;
+
+}
+
+.contact_form_email {
+  clear: both;
+  width: 100%;
+}
+.nav_tabs {
+  position: fixed;
+  height: 100%;
+  top: 100px;
+  width: 100%;
+  font-size: 18px;
+  background: none;
+  transition: background-color .5s;
+  float: center;
+}
+.contact_form_name {
+  clear: both;
+  width: 100%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.contact_form_email {
+  clear: both;
+  width: 100%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.contact_form_email_type {
+  width: 100%;
+}
+
+.contact_button{
+  text-align:center;
+  display:block;
+}
+
+.message {
+  clear: both;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+  }
+@media (min-width: 640px){
+.name {font-size: 36px;
+  width: 100%;
+  text-align: left;
+  background: #eee;
+
+}
+}

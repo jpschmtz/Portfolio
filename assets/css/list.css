@@ -1,0 +1,86 @@
+body {
+    max-width: 960px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    background-image: url('../images/bg.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header { 
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+}
+
+.row
+ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    margin-bottom: 40px;
+    
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    object-fit: cover;
+    grid-column-gap: 20px;
+}
+
+.recipe {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.search {
+    padding: 10px 200px 10px 10px;
+    border: solid 4px #000000;
+}
+
+.search:focus {
+    outline-width: 1;
+    outline-color: #3cbbb1;
+}
+
+.hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    
+  }
+  .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    color:#3cbbb1;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 20px;
+    
+  }
+
+  hr {
+    border: none;
+    width: 465px;
+    height: 4px;
+    background-color: #000000;
+}
+  
