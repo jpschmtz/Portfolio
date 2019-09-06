@@ -1,2 +1,3 @@
 # Portfolio
-First homework assignment
+Hosted here:
+https://jpschmtz.github.io/Portfolio/
